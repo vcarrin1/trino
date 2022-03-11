@@ -108,6 +108,8 @@ Property Name                                Description
 ``hive.s3.proxy.preemptive-basic-auth``      Whether to attempt to authenticate preemptively against proxy
                                              when using base authorization, defaults to ``false``.
 
+``hive.s3.http-headers.user-identity.enabled`` Enable the option to add user identity to http headers, defaults to ``false``.
+
 ============================================ =================================================================
 
 .. _hive-s3-credentials:
